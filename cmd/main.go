@@ -4,9 +4,9 @@ package main
 import (
 	"blog/internal/app/config"
 	"blog/internal/app/database"
+	middlewares "blog/internal/app/middleware"
 	"blog/internal/app/model"
 	"blog/internal/app/server"
-	middlewares "blog/internal/middleware"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
